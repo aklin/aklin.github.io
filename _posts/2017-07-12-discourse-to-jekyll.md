@@ -10,11 +10,7 @@ tags:
 ---
 
 
-I've been looking into a way of publishing Discourse posts as Jekyll entries.
-
-### The Problem
-
-I run a gaming community that uses a Discourse forum. In it there are pages (rules, tutorials etc.) that I'd like to feel more _permanent_, more easily accessible. I got around this by curating permalinks, but then there are nice-to-haves like mission debriefs - or even a monthly blog that could keep non-members engaged. This is where we run into the forum's limitations as a platform.
+I've been looking into a way of publishing Discourse posts as Jekyll entries. I run a gaming community that uses a Discourse forum. In it there are pages (rules, tutorials etc.) that I'd like to feel more _permanent_, more easily accessible. I got around this by curating permalinks, but then there are nice-to-haves like mission debriefs - or even a monthly blog that could keep non-members engaged. This is where we run into the forum's limitations as a platform.
 
 Enter Github-powered Jekyll. Easy and fun to set up, uses the same markup language as the forum, and every change is publicly visible - which helps build and maintain trust. Creating a pull request, however, is a problem for almost all of our members, who are non-technical.
 
