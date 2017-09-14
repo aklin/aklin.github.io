@@ -10,11 +10,7 @@ tags:
 ---
 
 
-
-### The Problem
-
 Our forum registration is open to anyone, but we need to be notified of new members so that the Recruitment Officers (ROs) can get in contact with them.
-
 Setting registrations to require manual approval is not an option, because not every RO is a moderator.
 
 
