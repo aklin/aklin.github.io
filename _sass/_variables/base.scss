@@ -64,7 +64,7 @@ $selection-color              : white;
 // Font families.
 $font-family-chinese      : "PingFang SC", "Microsoft YaHei";
 
-$font-family-base         : $font-family-chinese, sans-serif;
+$font-family-base         : "Georgia", sans-serif;
 $font-family-base         : if(get_font_family('global'), (get_font_family('global'), $font-family-chinese, sans-serif), $font-family-base);
 
 $font-family-logo         : $font-family-base;
@@ -107,7 +107,7 @@ $font-size-headings-large   : $font-size-headings-base + $font-size-headings-ste
 $font-size-headings-larger  : $font-size-headings-large + $font-size-headings-step;
 
 // Global line height
-$line-height-base           : 2;
+$line-height-base           : 1.8;
 $line-height-code-block     : 1.6;  // Can't be less than 1.3
 
 
