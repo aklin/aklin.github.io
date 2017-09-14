@@ -14,7 +14,7 @@ tags:
 I found a fun way to generate a 2D grid in Oracle SQL and I thought I'd share.
 
 Let's say we have a rectangular container of X by Y dimensions, which can fit X\*Y contents. Since that table will not be used
-in any examples, I have chosen to omit it. The `Contents` table however is important, and is defined as:
+in any examples, I have chosen to omit it. The `Contents` table, however, is important and is defined as:
 
 ```
 Contents
@@ -34,7 +34,7 @@ I had to solve a few weeks ago, and this is how I did it.
 
 ## The Problem
 
-The code I was looking to replace would do the following:
+The code I had to replace did the following:
 
 1. Fetch all occupied X/Y spots in a container
 1. Iterate through a `boolean` array and mark the ones occupied.
@@ -43,14 +43,14 @@ A workable, quick-n-dirty solution, but for various reasons it needed to be repl
 
 ## Generating a 2D Grid
 
-At first I thought I should translate the Java logic into the SQL, so I started by making a grid. Let's make it 3x3 for simplicity.
-Initially I started with a single side:
+At first, I thought I should translate the Java logic into the SQL, so I started by making a grid. Here I'll make it 3x3 for simplicity.
+Initially, I started with a single side:
 
 ```sql
 SELECT rownum X FROM dual  CONNECT BY LEVEL <= 3
 ```
 
-then I joined this query back onto a copy of itself, and named the two sub-queries appropriately:
+I then `JOIN`ed this query back onto the same statement, and named the two appropriately:
 
 ```sql
 SELECT *
