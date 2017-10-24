@@ -19,7 +19,7 @@ My work focuses on the [Inventory][link-inv] and [Register][link-reg] modules, a
 
 * Designed & Implemented £40K RESTful API before my 6th month
 * Integrated [MarvinJS][marvinjs] to the [Register][link-reg] suite
-* Completely rewrote of Datasources front-end, a core [Browser][link-bro] component
+* Completely rewrote Datasources front-end, a core [Browser][link-bro] component
 * Modernized Inventory UI
 * Refactored Inventory Positional Indexing system backend & frontend
 * Maintained & implemented new features for Inventory module
