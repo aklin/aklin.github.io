@@ -63,6 +63,27 @@ _2009 --- 2012_
 Foundations of computing and software development. My dissertation topic was the design and implementation of a secure chat system, comprised of a server (C, MySQL), client (Java, Swing) and a sign-up website (PHP).
 
 
+## Fun
+
+### _(Undisclosed Gaming Community)_
+
+**Chief Admin - Community Manager**, _January 2017 --- Present_
+
+Entrusted with the precious few hours<sup>1</sup> of fun of about 30 active members, the average age of which being around 25. As the founder, my most important contribution has been the establishment of a mature
+and open outlook in everything from our handling of financial contributions to the (rare but unavoidable) enforcement of rules.
+
+* Ensure our Docker-based forum is up and running
+* Maintain AWS-hosted utilities (NodeJS)
+
+Soft skills include:
+
+* Maintain administrative KB and train other admins on procedures, including data recovery from backups
+* Work with _Recruitment Officers_ and _Instructors_ to establish a high standard of training
+* Directing talent to the appropriate resources
+* Occasional conflict resolution
+
+<sup><sup>1</sup>That's 510 man-hours per month on average (1.7 hours per event, 3 times a week)</sup>
+
 [link-inv]: https://www.dotmatics.com/products/inventory
 [link-bro]: https://www.dotmatics.com/products/browser
 [link-reg]: https://www.dotmatics.com/products/register
