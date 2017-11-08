@@ -65,21 +65,23 @@ Foundations of computing and software development. My dissertation topic was the
 
 ## Fun
 
-### _(Undisclosed Gaming Community)_
+### _(Gaming Community)_
 
-**Chief Admin - Community Manager**, _January 2017 --- Present_
+**Chief Engineer - Community Manager**, _January 2017 --- Present_
 
-Entrusted with the precious few hours<sup>1</sup> of fun of about 30 active members, the average age of which being around 25. As the founder, my most important contribution has been the establishment of a mature
-and open outlook in everything from our handling of financial contributions to the (rare but unavoidable) enforcement of rules.
+Entrusted with the precious few hours<sup>1</sup> of fun of about 30 active mature-aged members. As the founder my most important contribution was establishing a culture of openness and fairness, 
+from the handling of our financials to the (rare but unavoidable) enforcement of rules.
 
-* Ensure our Docker-based forum is up and running
+* Ensure our Docker-based forum and Linux game server are up and running
 * Maintain AWS-hosted utilities (NodeJS)
+* Ensure a bus factor of > 1 at all times
+* Maintain KB and train admins on procedures, including backup recovery
 
 Soft skills include:
 
-* Maintain administrative KB and train other admins on procedures, including data recovery from backups
-* Work with _Recruitment Officers_ and _Instructors_ to establish a high standard of training
+* Working with _Recruitment Officers_ and _Instructors_ to establish a high standard of training
 * Directing talent to the appropriate resources
+* Interfacing with foreign teams for joint events
 * Occasional conflict resolution
 
 <sup><sup>1</sup>That's 510 man-hours per month on average (1.7 hours per event, 3 times a week)</sup>
