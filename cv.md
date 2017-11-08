@@ -70,7 +70,7 @@ Foundations of computing and software development. My dissertation topic was the
 **Chief Engineer - Community Manager**, _January 2017 --- Present_
 
 Entrusted with the precious few hours<sup>1</sup> of fun of about 30 active mature-aged members. As the founder my most important contribution was establishing a culture of openness and fairness, 
-from the handling of our financials to the (rare but unavoidable) enforcement of rules.
+from the handling of our financials to the (rare but inevitable) enforcement of rules.
 
 * Ensure our Docker-based forum and Linux game server are up and running
 * Maintain AWS-hosted utilities (NodeJS)
