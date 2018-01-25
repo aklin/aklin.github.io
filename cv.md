@@ -89,21 +89,14 @@ Soft skills include:
 
 # Contact
 
-Use the widget below to schedule time for a call. I will manually
-confirm our meeting when I see it. Don't forget to include your
-number if you'd like me to call you.
+<br />
 
-If the widget doesn't work, try [this link][calendly] instead.
-
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/aklin/15min" style="min-width:320px;height:850px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-<!-- Calendly inline widget end -->
+{% include calendly.html %}
 
 
 <sup><sup>1</sup>That's 510 man-hours per month on average (1.7 hours per event, 3 times a week)</sup>
 
-[calendly]: https://calendly.com/aklin
+
 [link-inv]: https://www.dotmatics.com/products/inventory
 [link-bro]: https://www.dotmatics.com/products/browser
 [link-reg]: https://www.dotmatics.com/products/register

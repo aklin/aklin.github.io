@@ -119,11 +119,10 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  #about: /about/
   archives: /archives/
   tags: /tags/
+  contact: /contact/
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -141,6 +140,7 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
+  contact: envelope
   commonweal: heartbeat
 
 
@@ -227,8 +227,7 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+  #Twitter: twitter
 
 
 # Sidebar Avatar
@@ -264,7 +263,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: hide
+  display: remove
   #display: always
   #display: hide
   #display: remove
@@ -318,7 +317,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: false
-  min2read: false
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -393,26 +392,6 @@ disqus:
 # Gentie productKey
 #gentie_productKey:
 
-# changyan
-changyan:
-  enable: false
-  appid:
-  appkey:
-
-# Support for youyan comments system.
-# You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
-
-# Support for LiveRe comments system.
-# You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
-
-# Baidu Share
-# Available value:
-#    button | slide
-# Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
 
 # Share
 #jiathis:
@@ -424,10 +403,11 @@ changyan:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: googleb7f4e0ae01896032
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-113086665-1
+
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
