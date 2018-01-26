@@ -5,7 +5,7 @@ slug: cv
 permalink: /cv/
 ---
 
-Experienced in **Java** (and **Maven**) as well as **MySQL**. Also familiar with **C, PHP and Oracle SQL**. Most comfortable as a backend developer, but more than capable of writing frontend code in **CSS (SASS/LESS)**, HTML5 and **Javascript**. I like to manage my code with **Git**.
+Experienced in **Java** (and **Maven**) as well as **MySQL**. Also familiar with **C, PHP** and **Oracle SQL**. Most comfortable as a backend developer, but more than capable of writing frontend code in **CSS (SASS/LESS)**, HTML5 and **Javascript**. I like to manage my code with **Git**.
 
 
 ## Experience
