@@ -33,13 +33,16 @@ dependable executable scripts.
 
 * Designed & Implemented £40K RESTful API before my 6th month
 * Integrated [MarvinJS][marvinjs] to the [Register][link-reg] suite
-* Completely rewrote Datasources front-end, a core [Browser][link-bro] component
+* Completely rewrote _Datasources Editor_ front-end, a core [Browser][link-bro] component
 * Refactored Inventory Positional Indexing system
 
 ### Responsibilies
 
 In the past I've worked on both [Register][link-reg] and the core [Browser][link-bro] modules, but these days
-my work focuses mostly on [Inventory][link-inv].
+my work focuses mostly on [Inventory][link-inv]. On the design side of the equation I provide the technical
+insight complementing the product owner's business interests. **TDD** is employed when it would be benefitial
+to do so.
+
 
 
 ## EuroBalt
@@ -109,14 +112,17 @@ Soft skills include:
 * Occasional conflict resolution
 
 
+{% if site.cv.calendly %}
+
 ---
 
 # Contact
 
 <br />
 
-{% include calendly.html %}
 
+{% include calendly.html %}
+{% endif %}
 
 <sup><sup>1</sup>That's 510 man-hours per month on average (1.7 hours per event, 3 times a week)</sup>
 

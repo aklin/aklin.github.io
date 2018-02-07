@@ -20,7 +20,7 @@ baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 10
+paginate: 12
 #paginate_path: "/page:num/"
 #archive:
   #paginate: 10
@@ -361,6 +361,11 @@ custom_logo:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: "night blue"
+
+
+# CV page settings
+cv:
+  calendly: true # Show Calendly widget in CV
 
 
 # ---------------------------------------------------------------
