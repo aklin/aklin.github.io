@@ -26,7 +26,7 @@ Most comfortable as a backend developer, but more than capable of writing fronte
 
 ### Current Projects
 
-During downtime I work towards Dockerizing the [Browser][link-bro] suite. The main challenge I'm facing is packaging
+During downtime I'm working towards Dockerizing the [Browser][link-bro] suite. The main challenge I'm facing is packaging
 [Pinpoint][link-pp] (our chemical cartridge) on top of Oracle DB and turning manual installation steps into
 dependable executable scripts.
 
