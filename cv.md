@@ -33,7 +33,7 @@ dependable executable scripts.
 ### Achievments
 
 * Designed & Implemented £40K RESTful API before my 6th month
-* Integrated [MarvinJS][marvinjs] to the [Register][link-reg] suite
+* Integrated [MarvinJS][marvinjs] with the [Register][link-reg] suite
 * Completely rewrote _Datasources Editor_ front-end, a core [Browser][link-bro] component
 * Refactored Inventory Positional Indexing system
 
