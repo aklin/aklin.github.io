@@ -22,7 +22,7 @@ Most comfortable as a backend developer, but more than capable of writing fronte
 **Full Stack Developer**, _December 2015 --- Present_
 
 
-**Tech stack**: Java, JSP, Oracle SQL, (HTML / CSS / JS), jQuery, git-svn, Continuous Integration
+**Tech stack**: Java, JSP, Oracle SQL, (HTML / CSS / JS), jQuery, git-svn, TDD, Continuous Integration
 
 ### Current Projects
 
@@ -34,15 +34,15 @@ dependable executable scripts.
 
 * Designed & Implemented £40K RESTful API before my 6th month
 * Integrated [MarvinJS][marvinjs] with the [Register][link-reg] suite
-* Completely rewrote _Datasources Editor_ front-end, a core [Browser][link-bro] component
+* Completely rewrote the _Datasources Editor_ front-end, a core [Browser][link-bro] component
 * Refactored Inventory Positional Indexing system
 
 ### Responsibilies
 
 In the past I've worked on both [Register][link-reg] and the core [Browser][link-bro] modules, but these days
-my work focuses mostly on [Inventory][link-inv]. On the design side of the equation I provide the technical
-insight complementing the product owner's business interests. I use **TDD** when it would be beneficial
-to do so.
+my work is focused mostly on [Inventory][link-inv]. On the design side of the equation I provide the technical
+insight to assist the development of the product's business direction. On the practical side I use **TDD** when
+it is beneficial to do so.
 
 
 
