@@ -25,7 +25,6 @@ Most comfortable as a backend developer, but more than capable of writing fronte
 
 ### Current Projects
 
-My free time is spent on Dockerizing the [Browser][link-bro] suite. The main challenge I'm facing is packaging
 [Pinpoint][link-pp] (our chemical cartridge) on top of Oracle DB and turning manual installation steps into
 dependable executable scripts.
 
@@ -40,7 +39,6 @@ dependable executable scripts.
 
 In the past I've worked on both [Register][link-reg] and the core [Browser][link-bro] modules, but these days
 my work focuses mostly on [Inventory][link-inv]. On the design side of the equation I provide the technical
-insight complementing the product owner's business interests. **TDD** is employed when it would be benefitial
 to do so.
 
 
