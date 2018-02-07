@@ -5,29 +5,44 @@ slug: cv
 permalink: /cv/
 ---
 
+<style>
+h1:not(.post-title)::before{content: "❭ ";}
+h2,h3,h4,h5,p{margin-left: 1em;}
+</style>
+
 Experienced in **Java** (and **Maven**) as well as **MySQL**. Also familiar with **C, PHP** and **Oracle SQL**.
 Most comfortable as a backend developer, but more than capable of writing frontend code in **CSS (SASS/LESS)**,
 **HTML5** and **Javascript**. I like to manage my code with **Git**.
 
 
-## Experience
+# Experience
 
-### Dotmatics LTD
+## Dotmatics LTD
 **Full Stack Developer**, _December 2015 --- Present_
 
-My work focuses on the [Inventory][link-inv] and [Register][link-reg] modules, as well as the core [Browser][link-bro] suite.
 
-**Tech stack**: Java, JSP, Oracle SQL, (HTML / CSS / JS), git-svn, Continuous Integration
+**Tech stack**: Java, JSP, Oracle SQL, (HTML / CSS / JS), jQuery, git-svn, Continuous Integration
+
+### Current Projects
+
+My free time is spent on dockerizing the Browser suite. The main challenge I'm facing is packaging
+[Pinpoint][link-pp], our chemical cartridge, on top of Oracle DB, as well as turning manual installation 
+instructions into verifiably correct executable scripts.
+
+### Achievments
 
 * Designed & Implemented £40K RESTful API before my 6th month
 * Integrated [MarvinJS][marvinjs] to the [Register][link-reg] suite
 * Completely rewrote Datasources front-end, a core [Browser][link-bro] component
-* Modernized Inventory UI
-* Refactored Inventory Positional Indexing system backend & frontend
-* Maintained & implemented new features for Inventory module
+* Refactored Inventory Positional Indexing system
+
+### Responsibilies
+
+In the past I've worked on both [Register][link-reg] and the core [Browser][link-bro] modules, but these days
+my work focuses mostly on [Inventory][link-inv].
 
 
-### EuroBalt
+## EuroBalt
 **Systems Administrator**, _May 2014 --- December 2015_
 
 
@@ -45,10 +60,14 @@ and implementing new solutions to accommodate our needs.
 * Significantly reduced costs for certain resources (up to 60%)
 
 
+# Currently Learning
 
-## Education
+ Spring, Hibernate and Docker.
 
-### University of Bristol
+
+# Education
+
+## University of Bristol
 
 Postgraduate Certificate --- _Internet Technologies & Security_
 
@@ -57,7 +76,7 @@ _2012 --- 2014_
 Learned to program a Beowulf cluster with OpenMP and OpenCL. Implemented RSA, ElGamal in C (using GMP).
 
 
-### University of Hertfordshire
+## University of Hertfordshire
 
 BSc (Hons), 1st Class --- _Computer Science_
 
@@ -67,9 +86,9 @@ Foundations of computing and software development. My dissertation topic was the
 of a secure chat system, comprised of a server (C, MySQL), client (Java, Swing) and a sign-up website (PHP).
 
 
-## Fun
+# Fun
 
-### _(Gaming Community)_
+## _(Gaming Community)_
 
 **Chief Engineer - Community Manager**, _January 2017 --- Present_
 
@@ -77,15 +96,15 @@ Entrusted with the precious few hours<sup>1</sup> of fun of about 30 active matu
 founder my most important contribution was establishing a culture of openness and fairness, 
 from the handling of our financials to the (rare but inevitable) enforcement of rules.
 
-* Ensure our Docker-based forum and Linux game server are up and running
-* Maintain AWS-hosted utilities (NodeJS)
-* Ensure a bus factor of > 1 at all times
+* Ensure our Docker-based forum and Linux game server are always up and running
+* Maintain AWS-hosted utilities (NodeJS, AWS Lambda)
+* Ensure a bus factor of > 1 in administrative roles at all times
 * Maintain KB and train admins on procedures, including backup recovery
 
 Soft skills include:
 
 * Working with _Recruitment Officers_ and _Instructors_ to establish a high standard of training
-* Directing talent to the appropriate resources
+* Directing talent to the appropriate resources (and then getting out of their way!)
 * Interfacing with foreign teams for joint events
 * Occasional conflict resolution
 
@@ -102,6 +121,7 @@ Soft skills include:
 <sup><sup>1</sup>That's 510 man-hours per month on average (1.7 hours per event, 3 times a week)</sup>
 
 
+[link-pp]: https://www.dotmatics.com/products/pinpoint
 [link-inv]: https://www.dotmatics.com/products/inventory
 [link-bro]: https://www.dotmatics.com/products/browser
 [link-reg]: https://www.dotmatics.com/products/register
