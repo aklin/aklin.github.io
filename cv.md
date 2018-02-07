@@ -41,8 +41,7 @@ dependable executable scripts.
 
 In the past I've worked on both [Register][link-reg] and the core [Browser][link-bro] modules, but these days
 my work is focused mostly on [Inventory][link-inv]. On the design side of the equation I provide the technical
-insight to assist the development of the product's business direction. On the practical side I use **TDD** when
-it is beneficial to do so.
+insight to assist the development of the product's business direction.
 
 
 
