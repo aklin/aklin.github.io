@@ -70,6 +70,14 @@ plugins:
 # - jemoji
  - jekyll-sitemap
  - jekyll-feed
+ - jekyll-extlinks
+
+
+# Extlinks config: https://github.com/d-ogarkov/jekyll-extlinks
+
+extlinks:
+  attributes: {rel: nofollow, target: _blank}
+#  rel_exclude: ['host1.com', 'host2.net']
 
 # ---------------------------------------------------------------
 # Site Information Settings
