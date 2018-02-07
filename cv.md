@@ -8,6 +8,7 @@ permalink: /cv/
 <style>
 .post-title{margin-bottom: 2em;}
 h2,h3,h4,h5,p{margin-left: 1em;}
+h2 ~ h3, h4, h5, p {margin-left: 2em;}
 </style>
 
 Experienced in **Java** (and **Maven**) as well as **Oracle SQL**. Also familiar with **C, PHP** and **MySQL**.
@@ -25,6 +26,7 @@ Most comfortable as a backend developer, but more than capable of writing fronte
 
 ### Current Projects
 
+During downtime I work towards Dockerizing the [Browser][link-bro] suite. The main challenge I'm facing is packaging
 [Pinpoint][link-pp] (our chemical cartridge) on top of Oracle DB and turning manual installation steps into
 dependable executable scripts.
 
@@ -39,6 +41,7 @@ dependable executable scripts.
 
 In the past I've worked on both [Register][link-reg] and the core [Browser][link-bro] modules, but these days
 my work focuses mostly on [Inventory][link-inv]. On the design side of the equation I provide the technical
+insight complementing the product owner's business interests. I use **TDD** when it would be beneficial
 to do so.
 
 
