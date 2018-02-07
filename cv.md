@@ -6,11 +6,11 @@ permalink: /cv/
 ---
 
 <style>
-h1:not(.post-title)::before{content: "❭ ";}
+.post-title{margin-bottom: 2em;}
 h2,h3,h4,h5,p{margin-left: 1em;}
 </style>
 
-Experienced in **Java** (and **Maven**) as well as **MySQL**. Also familiar with **C, PHP** and **Oracle SQL**.
+Experienced in **Java** (and **Maven**) as well as **Oracle SQL**. Also familiar with **C, PHP** and **MySQL**.
 Most comfortable as a backend developer, but more than capable of writing frontend code in **CSS (SASS/LESS)**,
 **HTML5** and **Javascript**. I like to manage my code with **Git**.
 
@@ -25,9 +25,9 @@ Most comfortable as a backend developer, but more than capable of writing fronte
 
 ### Current Projects
 
-My free time is spent on dockerizing the Browser suite. The main challenge I'm facing is packaging
-[Pinpoint][link-pp], our chemical cartridge, on top of Oracle DB, as well as turning manual installation 
-instructions into verifiably correct executable scripts.
+My free time is spent on Dockerizing the [Browser][link-bro] suite. The main challenge I'm facing is packaging
+[Pinpoint][link-pp] (our chemical cartridge) on top of Oracle DB and turning manual installation steps into
+dependable executable scripts.
 
 ### Achievments
 
