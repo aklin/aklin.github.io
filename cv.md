@@ -46,7 +46,7 @@ insight to assist the development of the product's business direction.
 
 
 ## EuroBalt
-**Systems Administrator**, _May 2014 --- December 2015_
+**Systems Engineer**, _May 2014 --- December 2015_
 
 
 As the sole IT staff in this e-shop management startup I was responsible for maintaining our servers,
