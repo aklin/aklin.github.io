@@ -181,8 +181,9 @@ font:
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
-    external: false
-    family: Verdana
+    external: true
+    family: Merriweather
+
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
@@ -201,7 +202,7 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
+    family: Montserrat
     size:
 
   # Font settings for <code> and code blocks.
@@ -258,8 +259,6 @@ toc:
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons: by
-#creative_commons:
-
 
 sidebar:
   # Sidebar Position, available value: left | right
@@ -360,7 +359,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: "night blue"
+highlight_theme: "night eighties"
 
 
 # CV page settings
@@ -422,22 +421,12 @@ google_site_verification: YQlekIb1KSnelFo56vD4eNQ2Q0N0x1ca3SyyXPOMI6I
 google_analytics: UA-113086665-1
 
 
-# Yandex Webmaster tools verification setting
-# See: https://webmaster.yandex.ru/
-#yandex_site_verification:
-
-# CNZZ count
-#cnzz_siteid:
-
-# Application Insights
-# See https://azure.microsoft.com/en-us/services/application-insights/
-# application_insights:
 
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
