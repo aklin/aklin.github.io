@@ -12,8 +12,8 @@ tags:
 ---
 
 
-Git has many advantages over SVN, which are better documented elsewhere, but git's killer feature is cheap private branches. This becomes invaluable when working on multiple tickets, or when you want to quickly compare two versions of the code.
-I've been doing this for a little more than a year and a half. This section will get you through setting up Git-SVN, and will give an overview of the workflow I've found to work under these conditions.
+Git has many advantages over SVN, but its killer feature is cheap private branches. This becomes invaluable when working on multiple tickets, or when you want to quickly compare two versions of the code.
+I've been doing this for a little more than a year and a half. This section will get you through setting up Git-SVN, and will give a quick overview of the workflow I've found to work.
 
 # Limitations
 
