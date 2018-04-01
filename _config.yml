@@ -95,7 +95,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2017
 
 # icon between year and author @Footer
 authoricon: coffee
@@ -113,7 +113,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -235,7 +235,7 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
+  GitHub: aklin
   #Twitter: twitter
 
 
@@ -359,12 +359,12 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: "night eighties"
+highlight_theme: "normal"
 
 
 # CV page settings
 cv:
-  calendly: true # Show Calendly widget in CV
+  calendly: false # Show Calendly widget in CV
 
 
 # ---------------------------------------------------------------
