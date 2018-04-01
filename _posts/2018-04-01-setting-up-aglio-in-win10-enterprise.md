@@ -71,7 +71,7 @@ aglio -i module.apib -o output.html
 
 # Conventions
 
-> A reminder that these are from my personal / domain-specific notes. If you adopt anything similar for your project
+> A reminder that these are my personal / domain-specific notes. If you adopt anything similar for your project
 it makes sense to document your own conventions somewhere, so I'll leave those in as an example because, well, why not
 
 Host URLs do not have a trailing slash. For example:
