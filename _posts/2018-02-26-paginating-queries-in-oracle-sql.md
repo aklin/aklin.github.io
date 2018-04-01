@@ -3,7 +3,7 @@ layout: post
 title:  "Paginating Queries in Oracle SQL"
 subtitle: "Limiting results in JDBC the quick way"
 date:   2018-02-26 15:00:00 +0100
-categories: projects
+categories: guides
 tags:
 - oracle
 - jdbc
