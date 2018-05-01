@@ -361,10 +361,11 @@ custom_logo:
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: "normal"
 
-
-# CV page settings
-cv:
-  calendly: false # Show Calendly widget in CV
+# Show Calendly widget in these pages
+contact_widget:
+  global: false
+  cv: true
+  contact: false
 
 
 # ---------------------------------------------------------------
@@ -501,7 +502,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page

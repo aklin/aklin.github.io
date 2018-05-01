@@ -96,7 +96,7 @@ of a secure chat system, comprised of a server (C, MySQL), client (Java, Swing) 
 **Chief Engineer - Community Manager**, _January 2017 --- Present_
 
 Entrusted with the precious few hours<sup>1</sup> of fun of about 30 active mature-aged members. As the
-founder my most important contribution was establishing a culture of openness and fairness, 
+founder my most important contribution was establishing a culture of openness and fairness,
 from the handling of our financials to the (rare but inevitable) enforcement of rules.
 
 * Ensure our Docker-based forum and Linux game server are always up and running
@@ -112,7 +112,7 @@ Soft skills include:
 * Occasional conflict resolution
 
 
-{% if site.cv.calendly %}
+{% if site.contact_widget.global and site.contact_widget.cv %}
 
 ---
 
