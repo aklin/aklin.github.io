@@ -10,7 +10,7 @@ tags:
 ---
 
 
-Here's how to make the IntelliJ IDEA setter generator generate setters that start with `this` instead of `set` and return `this`
+Here's how to make the IntelliJ IDEA setter generator generate setters prefixed by `with` instead of `set` and returning `this`
 when they're done.
 
 In the setter generator dialog, click the button with the three dots next to the scheme field. Copy the default scheme (IntelliJ Default)
