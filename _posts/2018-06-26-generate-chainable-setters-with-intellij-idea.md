@@ -40,7 +40,7 @@ What happened here? Three things:
 1. Method prefix changed from _set_ to _with_
 1.  `return this;` was added at the end.
 
-```diff
+{% highlight diff %}
 #end
 - void set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))($field.type $paramName) {
 + $class.name with$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))(final $field.type $paramName) {
@@ -54,7 +54,7 @@ What happened here? Three things:
   $field.name = $paramName;
 + return this;
 }
-```
+{% endhighlight %}
 
 
 ## Why You'd Want to Do That
