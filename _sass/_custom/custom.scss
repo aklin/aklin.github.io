@@ -23,3 +23,16 @@ kbd{
 	-webkit-border-radius: $kbd-border-radius;
 	text-shadow: 0 1px 0 #fff;
 }
+
+
+/* Rouge highglighter missing diff tokens */
+
+pre.highlight{
+	.gi {
+		color: #718C00;
+	}
+
+	.gd{
+		color: #C82829;
+	}
+}
