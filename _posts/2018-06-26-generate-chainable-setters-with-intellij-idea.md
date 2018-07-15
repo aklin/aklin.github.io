@@ -3,6 +3,8 @@ layout: post
 title:  "Generate Chainable Setters with IntelliJ IDEA"
 date:   2018-06-26 15:00:00 +0100
 categories: guides
+header:
+ external: https://images.unsplash.com/photo-1531449862596-16e4c62e2b10?ixlib=rb-0.3.5
 tags:
 - IntelliJ IDEA
 - java
