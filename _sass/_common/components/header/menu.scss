@@ -10,6 +10,12 @@
   display: inline-block;
   margin: 0 10px;
   list-style: none;
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: .05em .05em orange;
+  filter: invert(1) grayscale(1) contrast(2.4);
 
   @media screen and (max-width: 767px) {
     margin-top: 10px;
