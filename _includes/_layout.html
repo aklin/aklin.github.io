@@ -16,6 +16,8 @@
   {% include _third-party/analytics/index.html %}
   <style type="text/css" media="screen">
   .header{
+    {% if page.header.external %}
+    background: url('{{ page.header.external }}');
     background-size: cover;
     {% endif %}
   }
