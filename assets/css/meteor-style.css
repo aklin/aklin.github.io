@@ -15,8 +15,12 @@ section.main > .columns {
 	min-height: 100vh;/* calc(100vh - 130px);*/
 }
 
-section.sidebar{
+.page {
+	width: 960px;
+}
 
+.page-info-section .title{
+	height: 20%;
 }
 
 .gradient{
@@ -24,7 +28,9 @@ section.sidebar{
 	color:white;
 }
 
-/* .title, .subtitle, p*/
+.sidebar .tags{
+	margin: 25%;
+}
 
 .gradient * {
 	filter:invert(100%);
@@ -43,11 +49,11 @@ ul.contact-list{
 .half-spacer{
 	height: 50vh;
 }
+
 .grayscale{
 	filter: grayscale(100%) ;
 }
 
-.contact-section{
-	position: sticky;
-	top: 150px;
+.inverted {
+	filter:invert(100%);
 }
