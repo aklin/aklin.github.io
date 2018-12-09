@@ -32,8 +32,12 @@ section.post-body p {
 	color:white;
 }
 
-.sidebar .tags{
-	margin: 25%;
+.sidebar .field.is-grouped.is-grouped-multiline{
+	margin: 15%;
+}
+
+.sidebar .field.is-grouped.is-grouped-multiline .tags .tag + .tag {
+	background-color: lightgrey;
 }
 
 .gradient * {

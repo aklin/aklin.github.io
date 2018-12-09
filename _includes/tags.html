@@ -1,5 +1,6 @@
 {% if page.tags %}
-<div class="tags">
+<div class="field is-grouped is-grouped-multiline">
+
 
 	{% for tag in page.tags %}
 		{% assign tag_counter = 0 %}
@@ -17,8 +18,13 @@
 
 		{% endfor %}
 
+  	<div class="control">
+	    <div class="tags has-addons">
+	      <span class="tag">{{ tag }}</span>
+	      <span class="tag">{{ tag_counter }}</span>
+	    </div>
+	</div>
 
-		<span class="tag">{{ tag }} {{ tag_counter }}</span>
 
 	{% endfor %}
 
