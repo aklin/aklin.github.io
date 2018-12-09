@@ -15,11 +15,15 @@ section.main > .columns {
 	min-height: 100vh;/* calc(100vh - 130px);*/
 }
 
+section.post-body p {
+	margin: 2% auto 2% auto;
+}
+
 .page {
 	width: 960px;
 }
 
-.page-info-section .title{
+.sidebar .title{
 	height: 20%;
 }
 

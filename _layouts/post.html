@@ -2,6 +2,10 @@
 layout: page
 ---
 
-<img src="{{ post.header.external }}"></img>
+<section class="section post-body">
+	{% if page.header %}
+		<img src="{{ page.header.external }}"></img>
+	{% endif %}
 
 {{ content }}
+</section>
