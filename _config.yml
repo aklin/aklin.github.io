@@ -18,21 +18,8 @@ url:
 baseurl:
 permalink: pretty
 
-# Pagination
-paginate: 12
-#paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-
 # Handling Reading
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", ".editorconfig"]
 
 # Separator
 #excerpt_separator: <!-- more -->
@@ -58,18 +45,15 @@ defaults:
       layout: "post"
       comments: true
 
-# Atom feed
-feed:
-  path: atom.xml
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
 plugins:
 # jemoji conficts with toc in some no-ascii post
 # - jemoji
- - jekyll-sitemap
- - jekyll-feed
- - jekyll-extlinks
+# - jekyll-sitemap
+# - jekyll-feed
+# - jekyll-extlinks
 
 
 # Extlinks config: https://github.com/d-ogarkov/jekyll-extlinks
@@ -92,13 +76,6 @@ since: 2017
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons: by
-
-# Blog rolls
-#links_title: Links
-#links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
 
 # ---------------------------------------------------------------
 # Post Settings

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+
+<section class="section">
+    <div class="container is-fluid is-fullhd">
+    	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      	{{ post.excerpt }}
+    </div>
+</section>
+
+
+{% endfor %}
