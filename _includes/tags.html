@@ -1,9 +1,25 @@
-
 {% if page.tags %}
 <div class="tags">
 
 	{% for tag in page.tags %}
-	<span class="tag">{{ tag }}</span>
+		{% assign tag_counter = 0 %}
+
+		{% for post in site.posts %}
+			{% for post_tag in post.tags %}
+				{% if post_tag == tag %}
+
+					{% unless post.unpublished %}
+						{% assign tag_counter=tag_counter | plus:1 %}
+					{% endunless %}
+					{% break %}
+				{% endif %}
+			{% endfor %}
+
+		{% endfor %}
+
+
+		<span class="tag">{{ tag }} {{ tag_counter }}</span>
+
 	{% endfor %}
 
 </div>
