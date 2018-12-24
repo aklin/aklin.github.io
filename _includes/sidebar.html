@@ -1,4 +1,4 @@
-<div class="column is-one-fifth gradient">
+
 	<section class="section has-text-centered sidebar">
 		<div class="page-info-section half-spacer">
 			<h1 class="title">{{ page.title }}</h1>
@@ -7,9 +7,9 @@
 				{% include tags.html %}
 			</div>
 		</div>
-		<div class="contact-section half-spacer">
+		<div class="contact-section is-desktop is-vcentered">
 			<h1 class="title">{{ site.author }}</h1>
-			<h2 class="subtitle">{{ site.subtitle }}</h2>
+			<h2 class="subtitle">{{ site.subtitle | truncate 57 }}</h2>
 
 			<ul class="contact-list">
 				<li><span class="grayscale">✉️</span> <a href="mailto:me@email.com">me@email.com</a></li>
@@ -21,5 +21,3 @@
 		</div>
 
 	</section>
-
-</div>
