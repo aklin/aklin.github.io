@@ -10,7 +10,10 @@ section.main {
   padding:0;
 }
 
-
+.columns{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 section.main > .columns {
 	min-height: 100vh;/* calc(100vh - 130px);*/
 }
@@ -24,7 +27,6 @@ section.post-body p {
 }
 
 .sidebar .title{
-	height: 20%;
 }
 
 .gradient{
