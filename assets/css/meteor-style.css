@@ -15,7 +15,12 @@ section.main {
     margin-bottom: 0;
 }
 section.main > .columns {
-	min-height: 100vh;/* calc(100vh - 130px);*/
+
+}
+
+.scrollable {
+	overflow-x: overlay;
+	height: 100vh;
 }
 
 section.post-body p {
