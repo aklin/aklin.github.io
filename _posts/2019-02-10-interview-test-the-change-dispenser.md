@@ -17,13 +17,13 @@ role of _Junior Developer_. I won't name the company because it's not relevant,
 and although I passed the test, I didn't interview with them because decided to
 accept the offer from Dotmatics.
 
+I decided to write a post about it as I was going through my Github account, where I
+noticed a couple of private repositories. Those repos needn't be private anymore - 
+and this is one of them.
+
 The test is simple enough: Write the logic for a change dispenser, and figure out
 the least number of coins you can give for change if a customer pays over the price.
 My submission can be found [here][code].
-
-I decide to write a post about it because I was going through my Github account and
-noticed a couple of private repos. Those repos don't need to be private anymore, and
-this is one of them.
 
 # The Ethics
 
@@ -46,20 +46,22 @@ over them before I get started with the code.
 First of all, naming conventions. I was too influenced by C and Spartan Programming at the
 time and my variable names are as small as possible. I've learned it's better to call a
 spade a `spade` rather than a `s`, or indeed a transaction `transaction` rather than `t`.
-IntelliJ will highlight all variable occurrences if you click on it and giving it a proper
-name will only help you.
+My eyesight isn't what it used to be, so, longer, context-relevant variable names are much 
+appreciated. As an added bonus IntelliJ will highlight all occurrences of a variable if you 
+click on it and giving it a properly long name will only help you spot it faster in a large
+method.
 
 Then we have `introduction.html`, the file I wanted the interviewers to read before going
-through the code. The language is extremely bad, way too formal and pretentious. I remember
-thinking as much back then. I edited a couple of times for clarity, but it looks
+through the code. The language I used is extremely bad. It's way too formal and pretentious.
+I remember thinking as much back then. I edited a couple of times for clarity, but it looks
 like I went for terseness instead. In the end I called it _good enough_ and gave up.
-As a matter of fact I completely ignored it while writing this post. I read it all, didn't
+As a matter of fact I completely ignored it while writing this post; I read it all, didn't
 understand a word, and went to the code instead. So much for wanting to impress the 
 interviewer with fancy HTML.
 
 Finally, the test itself is executed in the main method. I wouldn't do that today, because
-what was actuall requested of me simply doesn't require it. All tests should instead go
-to, well, unit tests.
+what was actually requested of me simply doesn't require a main method. Instead I would've
+used a bunch of unit tests to examine each aspect the submission.
 
 In the `Main` class there's a method called `getRandomNominalPrice` accepting one parameter: 
 `atLeast`. Apparently, my intention was to provide a monetary value of _at least_ that much, 
@@ -106,20 +108,24 @@ ratio of the other denominations. I was quite proud of that.
 
 ## Defining the Purse
 
-Next up, we have the `Coins` class. `Coins` is a _coin aggregator [which] encapsulates
-a Map structure that contains the denomination tally_. So... a _wallet_ then. A+ for naming.
-But of course it's not really a _wallet_, but a _collection of coins_. When you buy
-something you insert a collection of coins in the machine, and when you get your change, you
-get a collection of coins back.
+Next up, we have the `Coins` class. `Coins` is, as I put it
 
-Internally I used an `EnumMap` count of how many coins I have in the wallet. Now, what the 
-hell is an [`EnumMap`][enummap]? I actually had to look it up cause I've never used it since:
+> a coin aggregator [which] encapsulates a Map structure that contains the
+denomination tally
+
+So... a _wallet_ then. A+ for naming. But of course it's not really a _wallet_, but a 
+_collection of coins_. When you buy something you insert a collection of coins in the 
+machine, and when you get your change, you get a collection of coins back.
+
+Internally I used an `EnumMap` count of how many coins I have in the wallet. And what 
+exactly, if I may ask, is an [`EnumMap`][enummap]? I actually had to look it up because
+I've never used it since:
 
 ```java
 public class EnumMap<K extends Enum<K>,V>
 ```
 
-Right then, a sound decision at the time. I was telling the interviewer I know what the hell
+A sound decision at the time. I was telling the interviewer I know what the hell
 I'm doing when using Collections and I can be trusted to choose the most appropriate for
 the task at hand. Now I could've used a `Map` here because `Coins` really has no business
 knowing that a `PseudoSterling` is an enum. Or does it? The documentation for `EnumMap` tells
@@ -143,7 +149,6 @@ set to `0`. This removes a lot of condition checking from the `addCoins` method.
 Finally we come to the business end: the `Transaction`. This is the class where I fulfill
 the requirements of the exercise, namely, dispensing change. The algorithm here tries to
 dispense as many high-valued coins as it can, before moving on to a coin of lower value.
-A simple loop and arithmetic is all we need.
 
 But I've spotted a bug in the `getChange` method:
 
@@ -167,11 +172,20 @@ enum is irrelevant. I should've used a collection sorter instead.
 All in all, I'm quite pleased with what I submitted. There are a few bugs I overlooked,
 some design decisions that would've gone differently today, and some silly mistakes
 that kinda paint me as a junior dev (like a duplicate Javadoc block that I spotted).
-In this post I overlooked some habits I've picked up since, such as my preference for
-an early return rather than a long `if` block. 
 
-Overall, I remember having fun with it at the time, and I'm happy to dust it off and put 
-it in the sun for a bit.
+There are some things I overlooked in this post because they aren't critical. For
+example a few years ago I picked up the habit of using an early return out of a method,
+rather than writing a large `if` block. That's a stylistic decision that has no bearing
+in the function of the program.
+
+Overall, I remember having fun with this exercise, and I'm happy to dust it off and put 
+it in the sun for a bit. I enjoyed the simplicity of this implementation. These days I
+probably would've gone for interfaces and extendability and whatnot, but what I have
+here does the job and does it pretty well.
+
+Retrospectives like this is quite useful in understanding where I was as a 
+programmer a few years ago, what lessons I've since learned, but also what lessons
+I've forgotten. I hope I'll have the time to do more of them.
 
 
 [code]: https://github.com/aklin/ChangeDispenser
