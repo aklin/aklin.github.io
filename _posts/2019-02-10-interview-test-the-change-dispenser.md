@@ -4,7 +4,7 @@ title:  "Interview Test: The Change Dispenser"
 date:   2019-02-10 21:00:00 +0000
 categories: interviews
 header:
- external: https://images.unsplash.com/photo-1531449862596-16e4c62e2b10?ixlib=rb-0.3.5
+ external: https://images.unsplash.com/photo-1528031069244-0b780c7aeb52?q=80
 tags:
 - interview test
 - java
