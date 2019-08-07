@@ -19,6 +19,11 @@ section.post-body p {
 	margin: 2% auto 2% auto;
 }
 
+.page-column {
+	max-height:100vh;
+	overflow-x: auto;
+}
+
 .page {
 	width: 960px;
 }
