@@ -32,7 +32,7 @@ download the charts we will be using in this guide.
 ```shell script
 # Add the official Helm repository and update
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
-help repo update
+helm repo update
 ```
 
 
