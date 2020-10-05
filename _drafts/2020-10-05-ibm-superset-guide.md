@@ -12,19 +12,14 @@ draft: true
 
 ## Before you begin
 
-The following sections assume that all necessary CLI tools are installed, and
-there is an IBM Kubernetes cluster already running. The following CLI tools 
-are also required:
-
-1. `kubectl`
-1. `ibmtools`
-1. `helm`
+The following sections assume that `kubectl` and `helm` are installed on your 
+machine, and that there is an IBM Kubernetes cluster already running. 
 
 The IBM [Clusters tutorial][1] provides instructions for creating a cluster and
 installing `kubectl` and `ibmtools` on your machine.
 
-The official [Helm documentation][2] will guide you through installing `helm` 
-on your machine (scroll down to find your operating system).
+Follow the official [Helm documentation][2] to install `helm` on your machine
+(scroll down to find your operating system).
  
 You will also need to configure `helm` with a Chart repository, so that you can
 download the charts we will be using in this guide.
@@ -35,13 +30,20 @@ helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 helm repo update
 ```
 
+At the end of this section, you should have
+
+1.An IBM Kubernetes cluster
+1. `kubectl` installed and pointing to your cluster
+1. `helm` installed
+
+Next, we will install Superset with default credentials and the necessary configuration.
 
 ## Install
 
 We are ready to install Superset. The following command will create a 
-persistent volume claim and mount Superset onto it. You can disable
+Superset deployment, and mount a new Persistent Volume to it. You can disable
 persistence by omitting the `persistence.enabled` flag, but then you might
-have trouble getting the default login credentials to work. 
+have trouble getting the default login credentials to work.
 
 ```shell script
 helm install --set persistence.enabled=true stable/superset --name SupersetDemo
