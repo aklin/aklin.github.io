@@ -10,11 +10,10 @@ tags:
 draft: true
 ---
 
-
 ## Before you begin
 
 The following sections assume that all necessary CLI tools are installed, and
-there is an IBM Kubernetes cluster already running. The following CLI tools 
+there is an IBM Kubernetes cluster already running. The following CLI tools
 are also required:
 
 1. `kubectl`
@@ -24,13 +23,13 @@ are also required:
 The IBM [Clusters tutorial][1] provides instructions for creating a cluster and
 installing `kubectl` and `ibmtools` on your machine.
 
-The official [Helm documentation][2] will guide you through installing `helm` 
+The official [Helm documentation][2] will guide you through installing `helm`
 on your machine (scroll down to find your operating system).
- 
+
 You will also need to configure `helm` with a Chart repository, so that you can
 download the charts we will be using in this guide.
 
-```shell script
+```bash
 # Add the official Helm repository and update
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 helm repo update
@@ -40,25 +39,24 @@ helm repo update
 ## Install
 
 We are ready to install Superset. We will create a custom StorageClass to
-make Superset with with IBM Cloud, and we will need to modify the chart
-to reflect our changes. 
+make Superset work with with IBM Cloud. We will also create a Persistent
+Volume Claim (PVC) to be used by the Superset pod.
 
-Additionally we will create
-a Persistent Volume Claim (PVC) to be used by the Superset pod. In the following
-sections we will first create the PVC and then move on to the Helm chart.
+In the following sections we will first create the PVC and then move on to
+the Helm chart.
 
 ### Create StorageClass and PersistentVolumeClaim
 
 We will copy the default class `ibmc-file-gold` to make it use a specified
 Group ID (GID), so that the pod can write to the volume after mounting.
 
-In the same file we will define the PersistentVolumeClaim (PVC) that the
+In the same file we will define the PersistentVolumeClaim (PVC) which the
 Superset pod will mount.
 
 Save the following as `superset-sc-pvc.yaml`:
 
 ```yaml
-# Copy of ibmc-file-gold, with a fixed GID 
+# Copy of ibmc-file-gold, with a fixed GID
 apiVersion: storage.k8s.io/v1beta1
 kind: StorageClass
 metadata:
@@ -105,13 +103,13 @@ spec:
 
 And create the resource:
 
-```shell script
+```bash
 kubectl apply -f superset-sc-pvc.yaml
 ```
 
 Verify that the resources were created correctly by using `describe`:
 
-```shell script
+```bash
 kubectl describe storageclass ibmc-file-gold-superset
 kubectl describe pvc superset-pvc
 ```
@@ -125,18 +123,18 @@ We now have a Persistent Volume ready to be used by Superset. In the next
 section we will download and modify the official Helm chart to get our
 deployment running.
 
-## Modifying the Helm Chart
+### Modifying the Helm Chart
 
 Run the following command to download the Superset Chart locally:
 
-```shell script
+```bash
 helm pull stable/superset --untar
 ```
 
-You should now have a local directory named `superset` containing the 
+You should now have a local directory named `superset` containing the
 Superset chart definition.
 
-```shell script
+```bash
 # Change to the Chart directory
 cd superset
 helm install \
@@ -163,9 +161,9 @@ superset.default.svc.cluster.local
 Initially you can login with username/password: admin/admin.
 ```
 
-Initialization will take a few minutes. You can monitor the progress by watching the pod's logs:
+Initialization will take a few minutes. You can monitor progress by watching the pod's logs:
 
-```shell script
+```bash
 kubectl get pods
 # Get the pod name. In this example it is `superset-798c9c7fbd-k9lsr`
 kubectl logs -f superset-798c9c7fbd-k9lsr
@@ -173,17 +171,17 @@ kubectl logs -f superset-798c9c7fbd-k9lsr
 
 You have now finished setup.
 
-## Set admin credentials
+### Set admin credentials
 
 Start a shell inside the Superset container
 
-```shell script
+```bash
 kubectl exec --stdin --tty superset-798c9c7fbd-k9lsr /bin/bash
 ```
 
 In the container shell, type the following to reset the admin credentials:
 
-```shell script
+```bash
 export FLASK_APP=superset
 flask fab create-admin superset
 ```
@@ -199,11 +197,11 @@ Admin User admin created.
 That means your admin credentials have been reset. You're ready to connect to
 the web UI.
 
-## Connect to Web UI
+### Connect to Web UI
 
 Finally, start a port-forwarding session via kubectl to connect to the login page.
 
-```shell script
+```bash
 kubectl port-forward svc/superset-demo 8080:9000
 ```
 
@@ -211,9 +209,8 @@ Visit [`localhost:8080`](http://localhost:8080) and use the credentials from the
 previous step.
 
 
-Congratulations, you have set up Superset in IBM Cloud!
+Congratulations, you have set up Superset on IBM Cloud!
 
 
 [1]: https://cloud.ibm.com/docs/containers?topic=containers-cs_cluster_tutorial
 [2]: https://helm.sh/docs/intro/install/
-
