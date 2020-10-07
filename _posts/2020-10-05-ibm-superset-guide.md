@@ -7,7 +7,6 @@ tags:
 - kubernetes
 - ibm
 - helm
-draft: true
 ---
 
 ## Before you begin
