@@ -9,6 +9,10 @@ tags:
 - helm
 ---
 
+Superset is a great alternative to Tableau. Installing Superset on an IBM
+Kubernetes cluster cannot be done just with an out-of-the-box Helm chart.
+This guide is meant to help you get started.
+
 ## Before you begin
 
 The following sections assume that all necessary CLI tools are installed, and
