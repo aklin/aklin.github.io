@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Do not make ultimatums. Do not accept ultimatums."
-date:   2020-10-18 23:44:11 +0100
+date:   2020-10-18
 categories: blog
 tags:
 - ultimatums
