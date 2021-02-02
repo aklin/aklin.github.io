@@ -3,6 +3,7 @@ layout: post
 title:  "Do not make ultimatums. Do not accept ultimatums."
 date:   2020-10-18
 categories: blog
+draft: true
 tags:
 - ultimatums
 - negotiations
