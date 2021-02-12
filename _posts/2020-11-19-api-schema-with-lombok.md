@@ -9,7 +9,6 @@ tags:
 - api
 ---
 
-This is how to create an API schema with Lombok.
 Lombok addresses the main ergonomic issue with Java, which is writing
 code that is necessary, but not necessarily worth the time to write it.
 I'm referring to setters, getters, builders, and logging utilities.
