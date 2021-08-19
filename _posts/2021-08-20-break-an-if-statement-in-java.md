@@ -2,7 +2,7 @@
 layout: post
 title:  "Can you break an IF statement in Java"
 date:   2021-08-20 00:03 +0100
-categories: projects
+categories: shorts
 tags:
 - java
 - spec
