@@ -25,5 +25,3 @@ const timestamp = new Date ( parseInt (uuidV7.substr(0, 12), 16));
 
 The result of `parseInt` is `1743071638529`, and `timestamp` should be
 `Thu Mar 27 2025 10:33:58 GMT+0000 (Greenwich Mean Time)`.
-```
-
