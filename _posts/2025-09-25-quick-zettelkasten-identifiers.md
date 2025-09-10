@@ -35,7 +35,7 @@ For example, let's say that today is the 30th of September 2025.
 1. Since we're in September and we don't calculate January in DOY, we multiply 
 8 x 30, which gives us **240** (in my head: 3 times 8, add a zero).
 2. Add 30 (the current day of the month) to 240, which gives us **270**. We have our DOY.
-3. We suffix the daily counter: **2701**
+3. We suffix with the daily counter: **2701**
 4. And finally, we prefix with the last digit of the year: **52701**.
 
 This will create a collision in ten years time if I decide to take another note
@@ -52,13 +52,10 @@ This method produces a minimum of 5 digits.
 
 * One digit shorter than the YMMDDC method below
 * Makes your brain work
-* The 
 
 ### Problems
 
-Makes your brain work. This adds friction to taking notes, which might make
-one's ADHD-afflicted brain to not want to take notes anymore.
-
+The method adds friction to taking notes, which leads to fewer notes.
 
 ## The YMMDDC Method
 
