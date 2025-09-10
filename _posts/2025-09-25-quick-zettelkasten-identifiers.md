@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quick Zettlekasten identifiers"
-date:   2025-03-27 00:11 +0100
+date:   2025-09-10 00:00 +0100
 categories: shorts
 tags:
 - zettelkasten
